@@ -104,3 +104,12 @@ a.celsius {
   font-family: sans-serif;
   color: var(--primary-color);
 }
+
+.weekday,
+.weekday-temp {
+  font-weight: bold;
+}
+
+.weekday-temp-min {
+  opacity: 0.7;
+}
