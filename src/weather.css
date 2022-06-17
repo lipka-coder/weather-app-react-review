@@ -27,19 +27,17 @@ ul {
 }
 
 .temperature-units {
-  color: var(--primary-color);
   position: relative;
   top: -45px;
 }
 
-a,
-.celsius,
-.fahrenheit {
+a.fahrenheit,
+a.celsius {
   text-decoration: underline;
   color: var(--primary-color);
 }
 
-a.active {
+.unit-active {
   text-decoration: none;
   color: var(--secondary-color);
 }
@@ -86,7 +84,8 @@ a.active {
 .weather-icon {
   width: 100px;
   position: relative;
-  top: -25px;
+  top: 5px;
+  margin-left: 20px;
 }
 
 .temperature {
